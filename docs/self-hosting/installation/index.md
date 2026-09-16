@@ -155,6 +155,12 @@ If you are using a reverse proxy, make sure WebSockets is enabled. The real-time
 
 If you encounter any issues, feel free to create a discussion on the [GitHub repo](https://github.com/docmost/docmost/discussions).
 
+## Alternative: Easypanel
+
+[Easypanel](https://easypanel.io) is a self-hosted Docker deployment platform. It has a one-click Docmost template that provisions the app, Postgres and Redis automatically, with `APP_URL` set to the deployed domain.
+
+[![Deploy on Easypanel](https://easypanel.io/img/deploy-on-easypanel-40.svg)](https://easypanel.io/templates/docmost)
+
 ## Upgrade
 
 To upgrade to the latest Docmost version, run the following commands:
